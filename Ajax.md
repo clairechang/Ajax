@@ -46,6 +46,7 @@ ajax當中的參數：
 -type：請求方式，POST/GET。
 
 -dataType：預期Server傳回的資料類型，如果沒指定，jQuery會根據HTTP MIME Type自動選擇以responseXML或responseText傳入你的success callback。
+          
           可選的資料類型有：
                   xml：傳回可用jQuery處理的XML
                   html：傳回HTML，包含jQuery會自動幫你處理的script tags。
