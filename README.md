@@ -1,4 +1,4 @@
-## JQuery
+#JQuery
 jQuery 是一套物件導向式簡潔輕量級的 JavaScript Library。透過 jQuery 你可以用最精簡少量的程式碼來輕鬆達到跨瀏覽器 DOM 操作、事件處理、設計頁面元素動態效果、AJAX 互動等。
 
 ####如何使用 jQuery
@@ -16,4 +16,35 @@ jQuery 是一套物件導向式簡潔輕量級的 JavaScript Library。透過 jQ
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+```
+#### jQuery Syntax
+```html
+Basic syntax is: $(selector).action()
+Examples:
+$(this).hide() - hides the current element.
+$("p").hide() - hides all <p> elements.
+$(".test").hide() - hides all elements with class="test".
+$("#test").hide() - hides the element with id="test".
+
+$(document).ready(function(){
+
+   // jQuery methods go here...
+
+});
+
+$(function(){
+
+   // jQuery methods go here...
+
+});
+
+Examples:
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").hide();
+    });
+});
+</script>
+
 ```
