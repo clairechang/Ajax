@@ -12,8 +12,6 @@ AJAX即「Asynchronous JavaScript and XML」（非同步的JavaScript與XML技�
 
 程式範例: 點擊一個按鈕，做一些什麼事情。
 因此可以這樣寫：
-
-```html
 <script>
          var Submit=function(){
             var URLs="recive.php";
@@ -33,7 +31,6 @@ AJAX即「Asynchronous JavaScript and XML」（非同步的JavaScript與XML技�
             });
         }
 </script>
-```
 
 ajax當中的參數：
 url：指定要進行呼叫的位址。
@@ -69,4 +66,6 @@ beforeSend：發送請求之前可在此修改XMLHttpRequest物件，如添加he
                           // the options for this ajax request 
                      }
                      
-                     
+***
+>參考網站:
+- Ajax的基本運用 <http://expect7.pixnet.net/blog/post/37919326-%5B%E7%A8%8B%E5%BC%8F%5D%5Bjquery%5D-jquery%E4%B8%AD%E7%9A%84ajax%E7%9A%84%E5%9F%BA%E7%A4%8E%E9%81%8B%E7%94%A8%E3%80%82%E6%8F%90%E4%BE%9B%E7%AF%84>               
