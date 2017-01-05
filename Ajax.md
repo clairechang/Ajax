@@ -55,22 +55,26 @@ ajax當中的參數：
                   text：傳回純文字字串。
                   
 -success：請求成功時執行函式。
+
                 function (data, textStatus) {
                        // data 可以是 xmlDoc, jsonObj, html, text, 但還是要參考datatype                          
                 } 
                 
 -error：請求失敗時執行函式。
+
            function (xhr, ajaxOptions, thrownError) {
                    //通常ajaxOptions或thrownError只有一個有值
            } 
            這個很重要，因為有時候Sever寫好的程式不容易測試，可以透過這個函數把錯誤顯示出來。
 
 -complete：請求完成時執行的函式(不論結果是success或error)。
+
                  function (XMLHttpRequest, textStatus) {
                    // the options for this ajax request 
                  }
                  
 -beforeSend：發送請求之前可在此修改XMLHttpRequest物件，如添加header等，你可以在此函式中return flase取消Ajax request。
+
                      function (XMLHttpRequest) { 
                           // the options for this ajax request 
                      }
