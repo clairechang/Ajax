@@ -4,9 +4,8 @@ jQuery 是一套物件導向式簡潔輕量級的 JavaScript Library。透過 jQ
 ####如何使用 jQuery
 
 到網站 http://jquery.com/download/  下載 jQuery Library 
-
-接著將此 JS 檔放進你網頁 HTML 的 <head> 及 </head> 之間
 ```html
+接著將此 JS 檔放進你網頁 HTML 的 <head> 及 </head> 之間
 <script src="你的 jQuery 檔案路徑"></script>
 
 <head>
