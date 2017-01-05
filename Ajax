@@ -9,6 +9,7 @@ AJAX即「Asynchronous JavaScript and XML」（非同步的JavaScript與XML技�
 （大約只有原來的5%）[來源請求],伺服器回應更快了。同時，很多的處理工作可以在發出請求的用戶端機器上完成，因此Web伺服器的負荷也減少了。
 
 ####Syntax
+
 ```html
 $(selector).load(URL,data,callback);
 Examples:
@@ -43,6 +44,7 @@ $(document).ready(function(){
         }
 </script>
 ```
+
 ajax當中的參數：
 url：指定要進行呼叫的位址。
 data：傳送至Server的資料，會自動轉為query string的型式，如果是GET請求還會幫你附加到URL。可用processData選項禁止此自動轉換。物件型式則為一Key/Value pairs。這個範例程式，是使用serialize()，會把name為sentToBack的表單中的資料傳送出去，型態的部分要看type的設定，一般表單都是用POST或是GET。
