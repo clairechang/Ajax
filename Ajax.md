@@ -36,6 +36,7 @@ AJAX即「Asynchronous JavaScript and XML」（非同步的JavaScript與XML技�
 </script>
 ```
 ajax當中的參數：
+
 -url：指定要進行呼叫的位址。
 
 -data：傳送至Server的資料，會自動轉為query string的型式，如果是GET請求還會幫你附加到URL。可用processData選項禁止此自動轉換。
@@ -74,7 +75,6 @@ ajax當中的參數：
                           // the options for this ajax request 
                      }
                      
-      
       
 ***
 >參考網站:
